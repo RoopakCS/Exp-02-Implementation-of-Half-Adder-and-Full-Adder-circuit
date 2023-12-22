@@ -39,13 +39,13 @@ endmodule
 ````
 # Output:
 
-# Logic symbol & Truthtable:
+## Logic symbol & Truthtable:
 ![291240788-11615dbf-2ba8-4e05-9fd9-334496a9e29f](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/b7726a5e-76e8-4ccb-a0c9-a96e09cd739b)
 
-# RTL realization:
+## RTL realization:
 ![half_adder](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/4a9d2719-adf4-436c-b10f-c99d97a4181f)
 
-# Timing diagram:
+## Timing diagram:
 ![Half Adder Waveform](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/42c8ff56-e7e1-4a45-b988-30e2b1a5ebb6)
 
 # Full Adder:
@@ -74,13 +74,13 @@ endmodule
 
 # Output:
 
-# Logic symbol & Truthtable:
+## Logic symbol & Truthtable:
 ![image](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/6350eef8-0284-423e-97a2-573b79d608f8)
 
-# RTL realization:
+## RTL realization:
 ![FullAdder](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/49e5eaf0-9b8e-4b41-b028-4cf8fc1ca481)
 
-# Timing diagram:
+## Timing diagram:
 ![FullAdder Waveform](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/02796a7d-0d74-44e3-989b-f7a95bf59032)
 
 # Result:
