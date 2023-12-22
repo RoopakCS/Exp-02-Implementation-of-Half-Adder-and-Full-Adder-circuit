@@ -24,10 +24,10 @@ Half adder is a combinational circuit that performs simple addition of two binar
 
 Sum = A’B+AB’ =A ⊕ B Carry = AB
 
-### Figure -01 HALF ADDER:
+## Figure -01 HALF ADDER:
 ![image](https://user-images.githubusercontent.com/36288975/163552057-b3547877-6d07-45b4-b7e0-bcfebfad9e1d.png)
 
-# Program:
+## Program:
 Program to design a half adder circuit and verify its truth table in quartus using Verilog programming.
 ````
 module half_adder(A,B,C,S);
@@ -37,15 +37,15 @@ assign c=A&B;
 assign S=A^B;
 endmodule
 ````
-# Output:
+## Output:
 
-## Logic symbol & Truthtable:
+### Logic symbol & Truthtable:
 ![291240788-11615dbf-2ba8-4e05-9fd9-334496a9e29f](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/b7726a5e-76e8-4ccb-a0c9-a96e09cd739b)
 
-## RTL realization:
+### RTL realization:
 ![half_adder](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/4a9d2719-adf4-436c-b10f-c99d97a4181f)
 
-## Timing diagram:
+### Timing diagram:
 ![Half Adder Waveform](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/42c8ff56-e7e1-4a45-b988-30e2b1a5ebb6)
 
 # Full Adder:
@@ -53,10 +53,10 @@ Full adder is a digital circuit used to calculate the sum of three binary bits. 
 
 Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = AB + ACin + BCin
 
-### Figure -02 FULL ADDER: 
+## Figure -02 FULL ADDER: 
 ![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png)
 
-# Program:
+## Program:
 Program to design a full adder circuit and verify its truth table in quartus using Verilog programming.
 ````
 module FullAdder(a,b,carryin,sum,carryout);
@@ -72,15 +72,15 @@ or(carryout,p,q,r);
 endmodule
 ````
 
-# Output:
+## Output:
 
-## Logic symbol & Truthtable:
+### Logic symbol & Truthtable:
 ![image](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/6350eef8-0284-423e-97a2-573b79d608f8)
 
-## RTL realization:
+### RTL realization:
 ![FullAdder](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/49e5eaf0-9b8e-4b41-b028-4cf8fc1ca481)
 
-## Timing diagram:
+### Timing diagram:
 ![FullAdder Waveform](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/02796a7d-0d74-44e3-989b-f7a95bf59032)
 
 # Result:
