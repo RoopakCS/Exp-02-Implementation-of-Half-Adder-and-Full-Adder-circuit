@@ -8,6 +8,7 @@ To design a half adder and full adder circuit and verify its truth table in Quar
 
 ## Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
+
 Software – Quartus prime
  
 ## Procedure:
@@ -59,7 +60,6 @@ endmodule
 ````
 
 ## Output:
-
 ### Logic symbol & Truthtable:
 #### Half Adder:
 ![291240788-11615dbf-2ba8-4e05-9fd9-334496a9e29f](https://github.com/RoopakCS/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139228922/b7726a5e-76e8-4ccb-a0c9-a96e09cd739b)
