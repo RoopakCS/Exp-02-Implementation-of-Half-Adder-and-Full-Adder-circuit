@@ -28,6 +28,7 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 ![image](https://user-images.githubusercontent.com/36288975/163552057-b3547877-6d07-45b4-b7e0-bcfebfad9e1d.png)
 
 # Program:
+Program to design a half adder circuit and verify its truth table in quartus using Verilog programming.
 ````
 module half_adder(A,B,C,S);
 input A,B;
@@ -35,7 +36,6 @@ output S,C;
 assign c=A&B;
 assign S=A^B;
 endmodule
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 ````
 # Output:
 
@@ -57,6 +57,7 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 ![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png)
 
 # Program:
+Program to design a full adder circuit and verify its truth table in quartus using Verilog programming.
 ````
 module FullAdder(a,b,carryin,sum,carryout);
 input a,b,carryin;
